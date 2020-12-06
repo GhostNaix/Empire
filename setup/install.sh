@@ -148,7 +148,7 @@ else
 		pip2 install Markdown
 		pip2 install m2crypto
 		sudo pip2 install -r requirements.txt
-		sudo pip2 install pyinstaller==3.6
+		sudo pip2 install pyinstaller==3.3.1
 		install_powershell
 	elif lsb_release -d | grep -q "Ubuntu"; then
 		Release=Ubuntu
