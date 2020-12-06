@@ -144,9 +144,9 @@ else
 		rm multiarch-support_2.28-10_amd64.deb
 		rm libssl1.0.0_1.0.1t-1+deb8u12_amd64.deb
 		sudo apt-get install -y make g++ python-dev swig libxml2-dev default-jdk zlib1g-dev libssl1.0-dev build-essential libssl1.0-dev libxml2-dev zlib1g-dev
-		pip install --upgrade pip
-		pip install m2crypto
-		sudo pip install -r requirements.txt 
+		pip2 install --upgrade pip
+		pip2 install m2crypto
+		sudo pip2 install -r requirements.txt 
 		install_powershell
 	elif lsb_release -d | grep -q "Ubuntu"; then
 		Release=Ubuntu
