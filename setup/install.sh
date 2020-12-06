@@ -141,6 +141,8 @@ else
 		wget http://ftp.de.debian.org/debian/pool/main/g/glibc/multiarch-support_2.28-10_amd64.deb
 		dpkg -i multiarch-support_2.28-10_amd64.deb
 		dpkg -i libssl1.0.0_1.0.1t-1+deb8u12_amd64.deb
+		rm multiarch-support_2.28-10_amd64.deb
+		rm libssl1.0.0_1.0.1t-1+deb8u12_amd64.deb
 		sudo apt-get install -y make g++ python-dev python-m2crypto swig python-pip libxml2-dev default-jdk zlib1g-dev libssl1.0-dev build-essential libssl1.0-dev libxml2-dev zlib1g-dev
 		pip install --upgrade pip
 		sudo pip install -r requirements.txt 
