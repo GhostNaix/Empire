@@ -7,7 +7,6 @@ flask
 macholib
 dropbox
 pyOpenSSL==17.2.0
-pyinstaller
 zlib_wrapper
 netifaces
 M2Crypto
